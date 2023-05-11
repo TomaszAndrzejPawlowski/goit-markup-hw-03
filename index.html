@@ -23,58 +23,49 @@
 
   <body class="body">
     <header class="header">
-      <div class="containter">
-        <a class="webstudio-link link" href="#"
-          ><span class="blue-web">Web</span>Studio</a
-        >
-
-        <nav class="header-nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a class="nav-agency link" href="#agency">Agencja</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-portfolio link" href="./portfolio.html#portfolio"
-                >Portfolio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-contact link" href="#contact">Kontakt</a>
-            </li>
-          </ul>
-        </nav>
-
-        <ul class="header-contact">
-          <li class="header-contact-item">
-            <a class="header-mail link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+      <a class="webstudio-link link" href="#"
+        ><span class="blue-web">Web</span>Studio</a
+      >
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-agency link" href="#agency">Agencja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-portfolio link" href="./portfolio.html#portfolio"
+              >Portfolio</a
             >
           </li>
-          <li class="header-contact-item">
-            <a class="header-tel link" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
+          <li class="nav-item">
+            <a class="nav-contact link" href="#contact">Kontakt</a>
           </li>
         </ul>
-      </div>
+      </nav>
+      <ul class="header-contact">
+        <li class="header-contact-item">
+          <a class="header-mail link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="header-contact-item">
+          <a class="header-tel link" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
+      </ul>
     </header>
-
     <main class="s-main">
       <!--nagłówek-->
       <section class="header-block">
-        <div class="containter">
-          <h1 class="main-header-text" id="agency">
-            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
-          </h1>
-          <button class="button header-button" type="button">
-            <span class="header-button-text">Zamów usługe</span>
-          </button>
-        </div>
+        <h1 class="main-header-text" id="agency">
+          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+        </h1>
+        <button class="button header-button" type="button">
+          <span class="header-button-text">Zamów usługe</span>
+        </button>
       </section>
 
       <!--nasze atuty-->
-      <section class="assets-block">
-        <div class="containter">
+      <div class="container">
+        <section class="assets-block">
           <ul class="assets">
             <li class="asset"><strong>LOREM IPSUM</strong></li>
             <li class="asset-text">
@@ -103,12 +94,9 @@
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </li>
           </ul>
-        </div>
-      </section>
-
-      <!--czym się zajmujemy-->
-      <section class="portfolio-block">
-        <div class="containter">
+        </section>
+        <!--czym się zajmujemy-->
+        <section class="portfolio-block">
           <h2 class="portfolio-header">Czym się zajmujemy</h2>
           <ul class="portfolio-gallery">
             <li class="gallery">
@@ -139,12 +127,11 @@
               />
             </li>
           </ul>
-        </div>
-      </section>
-
+        </section>
+      </div>
       <!--nasz zespół-->
       <section class="team-block">
-        <div class="containter">
+        <div class="container">
           <h2 class="team-header">Nasz zespół</h2>
           <ul class="team-list">
             <li class="team-member">
@@ -191,34 +178,35 @@
         </div>
       </section>
     </main>
-
     <footer class="footer">
-      <div class="containter">
-        <a class="webstudio-link-footer link" href="#"
-          ><span class="blue-web">Web</span>Studio</a
-        >
-        <address class="address-links" id="contact">
-          <ul class="address-list">
-            <li class="address-list-item">
-              <a
-                class="address-map-link link"
-                href="https://goo.gl/maps/aFRLkCgBxppGDL6R9"
-                target="_blank"
-                >m. Warszawa, Aleje Jerozolimskie 21</a
-              >
-            </li>
-            <li class="address-list-item">
-              <a class="address-mail link" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li class="address-list-item">
-              <a class="address-tel link" href="tel:+48111111111"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </address>
+      <div class="container">
+        <div class="footer-block">
+          <a class="webstudio-link-footer link" href="#"
+            ><span class="blue-web">Web</span>Studio</a
+          >
+          <address class="address-links" id="contact">
+            <ul class="address-list">
+              <li class="address-list-item">
+                <a
+                  class="address-map-link link"
+                  href="https://goo.gl/maps/aFRLkCgBxppGDL6R9"
+                  target="_blank"
+                  >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a class="address-mail link" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a class="address-tel link" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </footer>
   </body>
